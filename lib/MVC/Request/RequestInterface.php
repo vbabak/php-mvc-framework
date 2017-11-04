@@ -19,4 +19,6 @@ interface RequestInterface
     public function getModule(): string;
 
     public function get(string $param, $default = null);
+
+    public function getRequestUri(): string;
 }

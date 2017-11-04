@@ -7,4 +7,6 @@ namespace MVC\Router;
 interface RouterAwareInterface
 {
     public function setRouter(RouterInterface $router);
+
+    public function getRouter();
 }

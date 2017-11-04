@@ -7,4 +7,6 @@ namespace MVC\Request;
 interface RequestAwareInterface
 {
     public function setRequest(RequestInterface $request);
+
+    public function getRequest();
 }
